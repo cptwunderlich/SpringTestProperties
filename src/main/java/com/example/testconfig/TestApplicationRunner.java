@@ -6,7 +6,7 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Service;
 
 /**
- * @author Benjamin Maurer (benjamin.maurer@dataphone.at)
+ * @author Benjamin Maurer
  * @since 21.11.2018
  */
 @Service
