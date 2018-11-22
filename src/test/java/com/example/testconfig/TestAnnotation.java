@@ -1,7 +1,8 @@
 package com.example.testconfig;
 
-import org.springframework.test.context.ActiveProfiles;
-
-@ActiveProfiles("test")
+/**
+ * @author Benjamin Maurer (benjamin.maurer@dataphone.at)
+ * @since 21.11.2018
+ */
 public @interface TestAnnotation {
 }
