@@ -4,13 +4,16 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
+import org.springframework.test.context.ActiveProfiles;
 
 /**
- * @author Benjamin Maurer
- * @since 21.11.2018
+ * This won't work
  */
 @Configuration
 @Order(Ordered.HIGHEST_PRECEDENCE)
-@PropertySource("classpath:application-test.properties")
+@TestAnnotation
+// @ActiveProfiles("test")
+// @TestPropertySource(locations = "classpath:application-test.properties")
+// @PropertySource("classpath:application-test.properties")
 public class GlobalTestConfig {
 }
